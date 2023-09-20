@@ -1,0 +1,207 @@
+Question 1)
+Which of the following are benefits of Azure cloud-based data storage solutions?
+Select all options that apply.
+
+Automated backup and Recovery
+Increased Capital Expenditure
+Global Replication
+Multiple Data Types
+Question 2)
+The following script is an example of which serialization language?
+
+<Person Age="23">
+<FirstName>John</FirstName>
+<LastName>Smith</LastName>
+<Hobbies>
+<Hobby Type="Sports">Golf</Hobby>
+<Hobby Type="Leisure">Reading</Hobby>
+<Hobby Type="Leisure">Guitar</Hobby>
+</Hobbies>
+</Person>
+JSON
+XML
+YAML
+Question 3)
+Transactions are often defined by a set of four requirements, referred to as ACID guarantees.
+What does ACID stand for?
+Select all options that apply.
+
+Concurrent
+Dynamic
+Consistency
+Isolation
+Atomicity
+Automatic
+Durability
+Question 4)
+A storage account is an Azure resource and must therefore be included in which of the following?
+
+Resource Group
+Azure AD Group
+Management Group
+Question 5)
+Azure Storage offers several types of storage accounts. What is the recommended storage type for block blobs and append blobs?
+
+Premium Storage
+Standard General purpose v2
+Question 6)
+In Azure Storage, clients can use a shared key or shared secret for authentication and to restrict access to resources. A Shared key is supported by which of the following storage models?
+Select all options that apply.
+
+Tables
+Blobs
+Files
+Queues
+Disks
+Question 7)
+Which of the following types of Azure data is most suitable for highly available network file shares that can be accessed using the standard Server Message Block, or SMB, protocol?
+
+Blobs
+Queues
+Files
+Question 8)
+Azure File Storage exposes file shares using what protocol?
+
+HTTPS
+Server Message Block 2.0
+Server Message Block 3.0
+Question 9)
+Azure Storage provides a REST API to work with the containers and data stored in each account. To work with data in a storage account, what pieces of data does your app need?
+Select all options that apply.
+
+Access key
+Private access key
+Public access key
+REST API Endpoint
+Question 10)
+Microsoft Azure Storage is a managed service that provides durable, secure, and scalable storage in the cloud. Azure Files enables you to set up highly available network file shares that can be accessed using the standard Server Message Block (SMB) protocol.
+Which of the following are common scenarios where file shares can be used?
+Select all options that apply.
+
+Storing shared configuration files for VMs, tools, or utilities so that everyone is using the same version.
+Sharing data between on-premises applications and Azure VMs to allow migration of apps to the cloud over time.
+Sharing data between on-premises and Azure VM’s to allow the migration of apps to the cloud instantly
+Question 11)
+A storage account has two keys that provide full access to the account. 
+Which of the following is a good reason to regenerate your storage account keys?
+
+The key may have been compromised due to a hacking attack which could allow the hacker full access to your storage account.
+It is a requirement based on Azure AD Policies.
+As security best practice, similar to changing a password on a user account.
+Question 12)
+By default, storage accounts accept connections from clients on any network. To limit access to selected networks you must first change this default action.
+Which of the following can you use to restrict access to selected networks?
+
+Virtual Networks
+Specific IP Addresses
+Ranges of Ip addresses
+Resource Group
+Question 13)
+Azure Data Lake Storage Gen2 is built on which of the following storage services?
+
+Azure Disks
+Azure File Storage
+Azure Tables
+Azure Blob Storage
+Question 14)
+You can use a service-level SAS to allow access to specific resources in a storage account. What can you use this type of SAS to do?
+Select all options that apply.
+
+To allow an app to download a file.
+To allow an app or user to create file systems
+To allow an app to retrieve a list of files in a file system.
+Question 15)
+Which of the following statements is true of storage accounts and blob containers?
+
+Every blob lives inside a blob container. You can store a limited number of blobs in a container and an unlimited number of containers in a storage account.
+Every blob lives inside a blob container. You can only store a limited number of blobs in a container and a limited number of containers in a storage account.
+Every blob lives inside a blob container. You can store an unlimited number of blobs in a container and an unlimited number of containers in a storage account.
+ 
+
+Question 16)
+Which of the following statements is true of Resource Groups, Storage Accounts, and Azure Cosmos DB?
+
+Azure Cosmos DB can be included in an Azure Storage Account in an Azure Resource Group
+Azure Cosmos DB can be included in an Azure Resource Group but cannot be included in an Azure Storage Account.
+Question 17)
+Which of the following Azure Database services offer the following five consistency levels:
+
+Strong
+Bounded staleness
+Session
+Consistent prefix
+Eventual
+Azure SQL Database
+Azure SQL Managed Instance
+Azure Cosmos DB
+Question 18)
+Let’s say you have two video files stored as blobs. One of the videos is business-critical and requires a replication policy that creates multiple copies across geographically diverse datacenters. The other video is non-critical, and a local replication policy is sufficient. Which of the following options satisfies both data diversity and cost sensitivity consideration?
+
+Create a single storage account that makes use of geo-redundant storage (GRS) and host both videos from here.
+Create a single storage account that makes use of local-redundant storage (LRS) and host both videos from here.
+Create two storage accounts. The first account makes use of Geo-redundant storage (GRS) and hosts the business-critical video content. The second account makes use of local-redundant storage (LRS) and hosts the non-critical video content.
+Question 19)
+What is the maximum size of a block blob storing text or binary files?
+
+5 TB
+500 GB
+5 GB
+Question 20)
+When connecting an app to multiple storage accounts, what will your app require?
+
+A Shared Access Key
+An Access key for each storage account
+A single Access key to gain access to all storage accounts
+Question 21)
+Azure Storage accounts can create authorized apps in Active Directory to control access to data in which of the following storage services?
+Select all options that apply.
+
+Azure Blobs
+Azure Tables
+Azure Files
+Azure Queues
+Question 22)
+Azure Storage supports Azure Active Directory and role-based access control (or RBAC) for both resource management and data operations. You can assign RBAC roles that are scoped to which of the following?
+Select all options that apply.
+
+A storage account
+A Resource group
+Table
+A subscription,
+An individual container or queue
+Question 23)
+The organization you work at has two types of data:
+
+Private and proprietary
+For public consumption.
+When considering Azure storage accounts, which of the following approaches is best to meet your data diversity requirement?
+
+Enable virtual directories for the proprietary data and not for the public data with separate storage accounts for the proprietary and public data.
+Locate the data in a datacenter with the strictest data regulations to ensure that regulatory requirements thresholds have been met. In this way, you need only one storage account for managing all data. This will reduce data storage costs.
+Locate the organization’s data in a datacenter in the required country or region with one storage account for each region.
+Question 24)
+Your company is developing some new apps that need to access files in Blob storage. The company wants the Blob names in these apps to look like traditional file names and include file name extensions like .jpg to indicate what kind of data they contain. What type of storage design will need to be implemented to provide this feature?
+
+Implement Virtual Directories
+Create new Storage Accounts
+Create new containers
+Question 25)
+A JSON file stores which of the following types of data?
+
+Semi-structured
+Structured
+Unstructured
+Question 26)
+Storage for VHDs is used to provide durable disks for Azure Virtual Machines that utilize which type of Blob Storage?
+
+Block Blobs
+Append Blobs
+Page Blob
+Question 27)
+Which of the following scenarios are suitable for Blob Storage solutions?
+Select all options that apply.
+
+Storing data that is queried frequently
+Storing data for analysis by an on-premises or Azure-hosted service
+Storing data for backup and restore, disaster recovery, and archiving
+Serving images or documents directly to a browser
